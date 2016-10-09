@@ -1,0 +1,26 @@
+{
+    "name": "kweb",
+    "version": "0.1.0",
+    "description": "This is a simple http service.",
+    "main": "http.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "kweb",
+        "web",
+        "http",
+        "server",
+        "app"
+    ],
+    "author": {
+        "name": "KumaCool",
+        "email": "shunnketu@gmail.com"
+    },
+    "license": "MIT",
+    "files": [
+        "fs.js",
+        "http.js",
+        "util.js"
+    ]
+}
