@@ -2,7 +2,8 @@
 <p>这一是个基于NodeJS编写的小型WEB应用。搭建非常简单。</p>
 <p>
 下图是Kweb运行原理<br>
-![Alt text](/demo/public/images/2.jpg)</p>
+![](demo/public/images/2.jpg)
+</p>
 
 # 结构
 <pre>
