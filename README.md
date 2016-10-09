@@ -9,7 +9,7 @@
 <pre>
  web // 网站根目录
   ├─controller // 存放控制器目录
-  │   └─index.njs // 必须已.njs为扩展名
+  │   └─index.njs // 必须以.njs为扩展名
   └─view // 存放模板目录
       └─controllerName // 对应
          └─controllerPrototypeName.html // 必须要.html为扩展名
@@ -32,4 +32,5 @@
 > .listen(port, [host], [callback])  NodeJS自身接口，请参考Nodejs API。<br>
 
 # 注意
-如果WEB目录下没有控制器文件将直接遍历全站输出对应的静态文件。为了安全，框架禁止外部访问任何controller目录，所以除控制器目录外，不要在其他地方建立名为“controller”的目录。
+<li>默认控制器必须已.njs为扩展名,如想更改可修改fs.js文件</li>
+<li>如果WEB目录下没有控制器文件将直接遍历全站输出对应的静态文件。为了安全，框架禁止外部访问任何controller目录，所以除控制器目录外，不要在其他地方建立名为“controller”的目录。</li>
